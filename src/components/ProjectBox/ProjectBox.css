@@ -1,0 +1,34 @@
+.project .projectbox{
+    margin: .5rem;
+    border: 2px solid var(--background2);
+}
+.project .projectbox img{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.project .projectbox .details{
+    border-left: 2px solid var(--red);
+    border-right: 2px solid var(--red);
+    border-bottom: 2px solid var(--red);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    display: flex;
+}
+
+.project .projectbox a i{
+    color: var(--red);
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.project .projectbox p{
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    margin:auto;
+    padding-left: 12px;
+}
