@@ -37,8 +37,8 @@ function Contact() {
 			<button type="reset">Send Me Message</button>
 			<div class="social-media">
 				<span>Get In Touch : </span>
-				<a class="fab fa-linkedin" href="https://www.linkedin.com/in/angelov-d5da777/" target="blank_"></a>
-				<a class="fab fa-github" href="https://github.com/AngeloVJ" target="blank_"></a>
+				<a class="fab fa-linkedin" href="https://www.linkedin.com/in/angelov-d5da777/" target="blank_"> </a>
+				<a class="fab fa-github" href="https://github.com/AngeloVJ" target="blank_"> </a>
 			</div>
 		  </form>
 	  </div>
