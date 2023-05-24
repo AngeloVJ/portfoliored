@@ -40,7 +40,7 @@ function Contact() {
 				<a class="fab fa-linkedin" href="https://www.linkedin.com/in/angelov-d5da777/" target="blank_"> </a>
 				<a class="fab fa-github" href="https://github.com/AngeloVJ" target="blank_"> </a>
 			</div>
-		  </form>
+		</form>
 	  </div>
     </>
   )

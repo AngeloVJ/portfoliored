@@ -8,6 +8,7 @@
     padding: 0.8rem;
     background-color: var(--background2);
     font-family: "Montserrat", sans-serif;
+    justify-content: space-between;
 }
 .nav-sticky{
     background-color: var(--background2);
@@ -25,7 +26,7 @@
 
 
 .scroll-up-btn i {
-    display: none;    
+    display: none;
 }
 .scroll-up-btn i{
     color: var(--red);
@@ -40,10 +41,10 @@
     right: 1.5rem;
     border-radius: 50%;
     background: var(--background2);
-    border: 0.1rem solid var(--red);  
+    border: 0.1rem solid var(--red);
 }
 .scroll-up-btn .show{
-    display: block;   
+    display: block;
 }
 
 .nav a{
@@ -69,8 +70,8 @@
     list-style: none;
     text-decoration: none;
     display: flex;
-    position: relative;
-    left: 20rem;
+    /* position: relative;
+    left: 20rem; */
 }
 .nav ul li{
     padding: 0.5rem 1rem;
@@ -90,29 +91,29 @@
     color: var(--letter);
 }
 
-.nav ul li:hover{ 
+.nav ul li:hover{
     color: var(--red);
     /* border: 0.15rem solid var(--red); */
     border-radius: 0.3rem;
 }
 
-.nav ul li:hover>a>i { 
+.nav ul li:hover>a>i {
     color: var(--red);
     font-weight: bold;
 }
 
-.nav ul li:hover a { 
+.nav ul li:hover a {
     color: var(--red);
 }
 
-.nav .active{ 
+.nav .active{
     color: var(--red);
     font-weight: bold;
     border-bottom: 0.15rem solid var(--red);
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
 }
-.nav .active i{ 
+.nav .active i{
     color: var(--red);
     font-weight: bold;
 }
@@ -139,7 +140,7 @@
     .nav-mobile-sticky{
         background-color: var(--background2);
     }
-    
+
     .nav-mobile a{
         list-style: none;
         text-decoration: none;
@@ -173,7 +174,7 @@
     .scroll-up-btn i{
         position: fixed;
         bottom: 1rem;
-        right: 1rem; 
+        right: 1rem;
     }
 
 
@@ -202,7 +203,7 @@
     }
     .nav h2{
         display: none;
-    }   
+    }
     .nav ul{
         display: block;
         left: 0%;
@@ -213,17 +214,17 @@
     .nav ul li a i{
         color: var(--letter);
     }
-    .nav ul li:hover{ 
+    .nav ul li:hover{
         border: none;
         border-radius: none;
     }
-    .nav ul li:hover>a { 
+    .nav ul li:hover>a {
         text-shadow: none;
     }
-    .nav ul li:hover>a>i { 
+    .nav ul li:hover>a>i {
         text-shadow: none;
     }
-    .nav .active{ 
+    .nav .active{
         color: var(--red);
         font-weight: bold;
         border-bottom: 0.15rem solid var(--red);
@@ -231,7 +232,7 @@
         padding-bottom: 0.6rem;
         padding-right: 0.6rem;
     }
-    .nav .active i{ 
+    .nav .active i{
         color: var(--red);
         font-weight: bold;
     }

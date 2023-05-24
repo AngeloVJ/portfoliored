@@ -31,7 +31,10 @@ body{
     -webkit-tap-highlight-color: transparent;
 }
 .body{
-    max-width: 1400px;
+    /* max-width: 1400px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #loading_start{
     background:var(--background2) ;
